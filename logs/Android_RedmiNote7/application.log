@@ -1,0 +1,246 @@
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:08:36.233 BaseTest:232 - log path: logs\Android_RedmiNote7
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:08:36.241 BaseTest:239 - load config.properties
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:08:36.244 BaseTest:244 - load strings/strings.xml
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:08:36.312 BaseTest:267 - appUrl isC:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:05.858 BaseTest:287 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=RedmiNote7, systemPort=10000, udid=dbda4f2}, deviceApiLevel=29, deviceManufacturer=Xiaomi, deviceModel=Redmi Note 7, deviceName=dbda4f2, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=dbda4f2, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=10, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=dbda4f2, viewportRect={left=0, top=80, width=1080, height=2051}, warnings={}, webStorageEnabled=false}
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:09.077 LoginTests:61 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:10.713 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:12.571 BaseTest:339 - password is invalidpassword
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:13.288 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:14.559 BaseTest:359 - error text is - Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:16.813 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-08-36\LoginTests\invalidPassword.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:17.587 LoginTests:61 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:18.422 BaseTest:339 - login with invalidusername
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:20.314 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:21.520 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:22.176 BaseTest:359 - error text is - Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 ERROR] 2020-08-12 08:09:22.210 TestListener:33 - java.lang.AssertionError: expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.sdfdf]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.tests.LoginTests.invalidUserName(LoginTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:24.596 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-08-36\LoginTests\invalidUserName.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:25.366 LoginTests:61 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:26.122 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:27.940 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:29.136 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:31.551 BaseTest:359 - product page title is - PRODUCTS
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:33.235 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-08-36\LoginTests\successfulLogin.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:36.575 ProductTests:64 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:37.934 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:39.932 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:41.069 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:42.863 BaseTest:327 - press SLB tile link
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:45.524 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:48.901 BaseTest:359 - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:49.034 BaseTest:327 - navigate back to products page
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:50.341 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:52.891 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:56.353 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-08-36\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:57.129 ProductTests:64 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:57.778 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:09:59.020 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:00.306 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:02.293 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:02.913 BaseTest:359 - price is - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:03.227 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:05.286 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:10:07.120 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-08-36\ProductTests\validateProductOnProductsPage.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:21.721 BaseTest:232 - log path: logs\Android_RedmiNote7
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:21.728 BaseTest:239 - load config.properties
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:21.730 BaseTest:244 - load strings/strings.xml
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:21.738 BaseTest:267 - appUrl isC:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:33.630 BaseTest:287 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=RedmiNote7, systemPort=10000, udid=dbda4f2}, deviceApiLevel=29, deviceManufacturer=Xiaomi, deviceModel=Redmi Note 7, deviceName=dbda4f2, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=dbda4f2, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=10, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=dbda4f2, viewportRect={left=0, top=80, width=1080, height=2051}, warnings={}, webStorageEnabled=false}
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:36.746 LoginTests:61 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:38.595 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:40.122 BaseTest:339 - password is invalidpassword
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:41.547 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:42.742 BaseTest:359 - error text is - Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:44.807 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-48-21\LoginTests\invalidPassword.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:45.519 LoginTests:61 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:46.329 BaseTest:339 - login with invalidusername
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:48.280 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:49.448 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:50.116 BaseTest:359 - error text is - Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 ERROR] 2020-08-12 08:48:50.127 TestListener:33 - java.lang.AssertionError: expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.sdfdf]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.tests.LoginTests.invalidUserName(LoginTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:52.494 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-48-21\LoginTests\invalidUserName.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:53.261 LoginTests:61 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:54.462 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:56.276 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:48:57.431 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:00.263 BaseTest:359 - product page title is - PRODUCTS
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:01.958 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-48-21\LoginTests\successfulLogin.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:05.281 ProductTests:64 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:06.707 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:08.516 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:09.692 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:12.157 BaseTest:327 - press SLB tile link
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:14.219 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:18.131 BaseTest:359 - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:18.254 BaseTest:327 - navigate back to products page
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:19.549 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:21.664 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:24.933 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-48-21\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:25.810 ProductTests:64 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:26.513 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:28.861 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:30.059 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:32.079 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:32.737 BaseTest:359 - price is - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:33.000 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:35.093 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:49:36.897 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-48-21\ProductTests\validateProductOnProductsPage.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:20.105 BaseTest:232 - log path: logs\Android_RedmiNote7
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:20.117 BaseTest:239 - load config.properties
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:20.120 BaseTest:244 - load strings/strings.xml
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:20.133 BaseTest:267 - appUrl isC:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:31.644 BaseTest:287 - driver initialized: io.appium.java_client.android.AndroidDriver, Capabilities: {app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, chromeDriverPort=11000, databaseEnabled=false, desired={platformName=android, chromeDriverPort=11000, app=C:\Users\jmubayed\eclipse-workspace\Appium\appiumFramework\src\test\resources\app\Android.SauceLabs.Mobile.Sample.app.2.2.1.apk, appActivity=com.swaglabsmobileapp.SplashActivity, appPackage=com.swaglabsmobileapp, automationName=UiAutomator2, deviceName=RedmiNote7, systemPort=10000, udid=dbda4f2}, deviceApiLevel=29, deviceManufacturer=Xiaomi, deviceModel=Redmi Note 7, deviceName=dbda4f2, deviceScreenDensity=440, deviceScreenSize=1080x2340, deviceUDID=dbda4f2, javascriptEnabled=true, locationContextEnabled=false, networkConnectionEnabled=true, pixelRatio=2.75, platform=LINUX, platformName=Android, platformVersion=10, statBarHeight=80, systemPort=10000, takesScreenshot=true, udid=dbda4f2, viewportRect={left=0, top=80, width=1080, height=2051}, warnings={}, webStorageEnabled=false}
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:34.671 LoginTests:61 - 
+****** starting test:invalidPassword******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:36.204 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:38.540 BaseTest:339 - password is invalidpassword
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:39.775 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:41.149 BaseTest:359 - error text is -Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:42.436 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-59-20\LoginTests\invalidPassword.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:43.568 LoginTests:61 - 
+****** starting test:invalidUserName******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:44.701 BaseTest:339 - login with invalidusername
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:47.033 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:48.271 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:48.984 BaseTest:359 - error text is -Username and password do not match any user in this service.
+[logsAndroid_RedmiNote7 ERROR] 2020-08-12 08:59:48.990 TestListener:33 - java.lang.AssertionError: expected [Username and password do not match any user in this service.] but found [Username and password do not match any user in this service.sdfdf]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.qa.tests.LoginTests.invalidUserName(LoginTests.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:51.148 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-59-20\LoginTests\invalidUserName.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:51.919 LoginTests:61 - 
+****** starting test:successfulLogin******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:53.216 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:54.550 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:56.261 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 08:59:58.489 BaseTest:359 - product page title is - PRODUCTS
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:00.123 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-59-20\LoginTests\successfulLogin.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:03.424 ProductTests:64 - 
+****** starting test:validateProductOnProductDetailsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:04.819 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:06.603 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:07.797 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:09.673 BaseTest:327 - press SLB tile link
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:12.126 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:16.109 BaseTest:359 - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:16.205 BaseTest:327 - navigate back to products page
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:17.497 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:19.643 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:23.068 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-59-20\ProductTests\validateProductOnProductDetailsPage.mp4
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:23.909 ProductTests:64 - 
+****** starting test:validateProductOnProductsPage******
+
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:24.630 BaseTest:339 - login with standard_user
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:26.490 BaseTest:339 - password is secret_sauce
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:27.643 BaseTest:327 - press login button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:29.682 BaseTest:359 - title is - Sauce Labs Backpack
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:30.380 BaseTest:359 - price is - $29.99
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:30.661 BaseTest:327 - press Settings button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:32.802 BaseTest:327 - press Logout button
+[logsAndroid_RedmiNote7 INFO ] 2020-08-12 09:00:34.789 BaseTest:146 - video path: videos\Android_RedmiNote7\2020-08-12-08-59-20\ProductTests\validateProductOnProductsPage.mp4

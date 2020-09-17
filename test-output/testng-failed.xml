@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="RedmiNote7(failed)">
+    <parameter name="emulator" value="false"/>
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="dbda4f2"/>
+    <parameter name="deviceName" value="RedmiNote7"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="invalidUserName"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- RedmiNote7(failed) -->
+</suite> <!-- Failed suite [Suite] -->
